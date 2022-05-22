@@ -4,10 +4,13 @@ import Product from './Component/Product';
 import Contact from './Component/Contact';
 import About from './Component/About';
 import Footer from './Component/Footer';
+import Home from './Component/Home';
+
 
 function App() {
   return (
     <>
+    <Home/>
     <Product/>
     <Contact/>
     <About/>

@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+
+
+body{
+   
+   font-family: 'Poppins', sans-serif;
+}
+#root .cont{
+  padding: 0;
+  /* margin: 0; */
+}
+.about-container {
+  height: 4rem;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: rgb(19, 19, 92);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.about-container > p {
+  font-weight: 600;
+}
+.about-paragraph {
+  color: rgb(19, 19, 92);
+  padding: 3rem 6rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: space-around;
+}
+.cards-container > div {
+  width: 20%;
+  height: 10rem;
+  border-radius: 0 15px;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid blue;
+    width: 100%;
+    height: 100%;
+}
+
+.logos>img{
+    width: 80%;
+  height: 100%;
+  padding: 1.6rem 0rem;
+  width: 90%;
+  height: 70%;
+  /* object-position: 2rem 2rem; */
+}
+.video-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+.video-cont>img{
+    width: 30%;
+    height: auto;  
+    border: 4px solid blue;
+} 
+.social-media{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fb-heading{
+    width: 41vw;
+    height: 3.5rem;
+    margin: 1rem 2rem;
+    background-color: blue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.facebook-cont>iframe{
+   width: 40vw;
+   height: 70vh;
+   border: none;
+   border: 5px solid red;
+   margin: 1rem 2rem;
+}
+
+
+.network-bg-img{
+ background-image: url('./Assests/9.jpg');
+ background-repeat: no-repeat;
+ background-size: 100%;
+ background-position: center;
+padding: 9% 3% 8% 3%;
+}
+
+.netwotk-text-but{
+  margin-left: 3rem;
+  width: 40%;
+}
+.netwotk-text-but>p{
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.netwotk-text-but>button{
+  width: 50%;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 760px) {
+  .network-bg-img{
+    background-image: url('./Assests/9.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+   padding: 6% 0% 6% 0%;
+   }
+   
+   .netwotk-text-but{
+     margin-left: 1rem;
+     width: 50%;
+   }
+   .netwotk-text-but>p{
+     font-size: 0.8rem;
+     font-weight: 500;
+     padding-bottom: 0rem;
+   }
+   
+   .netwotk-text-but>button{
+     width: 60%;
+     font-size: 1rem;
+     font-weight: 500;
+   }
+  .network>h3{
+    font-size: 1.35rem;
+  }
+  
+  .about-container > p {
+    font-weight: 650;
+    padding: 0rem;
+  }
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0rem;
+    /* justify-content: space-between; */
+    align-items: center;
+  }
+  .cards-container > div {
+      width: 60%;
+    margin: 1rem 0;
+  }
+  .video-cont{
+    display: flex;
+    flex-direction: column;
+}
+.video-cont>img{
+    width: 70%;
+    height: auto;  
+    /* padding: auto; */
+    margin: 1rem 0;
+} 
+.about-paragraph {    
+    padding: 2rem 2rem;
+    text-align: justify;
+  }
+  .social-media{
+    
+    flex-direction: column;
+    
+}
+.facebook-cont>iframe{
+    width: 85vw;
+    height: 60vh;
+    border: none;
+    border: 5px solid red;
+    margin: 1rem 2rem;
+ }
+ .fb-heading{
+    width: 86vw;
+    height: 3.5rem;
+    margin: 1rem 2rem;
+}
+}
+
+@media screen and (min-width:760px) and (max-width: 920px) {
+  .network-bg-img{
+    background-image: url('./Assests/9.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+   padding: 10% 0% 10% 0%;
+   }
+   
+   .netwotk-text-but{
+     margin-left: 1rem;
+     width: 50%;
+   }
+   .netwotk-text-but>p{
+     font-size: 1.2rem;
+     font-weight: 500;
+     padding-bottom: 0rem;
+   }
+   
+   .netwotk-text-but>button{
+     width: 60%;
+     font-size: 1rem;
+     font-weight: 500;
+   }
+  }
