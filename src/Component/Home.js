@@ -8,9 +8,12 @@ import image2 from "../Component/Assests/2.jpg";
 import image3 from "../Component/Assests/3.jpg";
 import image4 from "../Component/Assests/4.jpg";
 import image5 from "../Component/Assests/5.jpg";
+import  Header from './Header'
 
 function Home() {
   return (
+    <>
+    <Header/>
     <div className="main-container">
       <section className="about">
         <div className="about-container">
@@ -68,7 +71,7 @@ function Home() {
         </div>
         <div className="row social-media">
           <div className="facebook-cont  col-lg-6 col-md-6 col-sm-12">
-            <div className="fb-heading" style={{ color: "white" }}>
+            <div className="fb-heading">
               <h1>FACEBOOK</h1>
             </div>
             <iframe
@@ -80,8 +83,8 @@ function Home() {
           </div>
           <div className="facebook-cont col-lg-6 col-md-6 col-sm-12">
             <div
-              className="fb-heading"
-              style={{ color: "white", backgroundColor: "red" }}
+              className="insta-heading"
+             
             >
               <h1>INSTAGRAM</h1>
             </div>
@@ -111,6 +114,7 @@ function Home() {
        </div>
       </section>
     </div>
+    </>
   );
 }
 
