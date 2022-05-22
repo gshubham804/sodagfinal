@@ -76,10 +76,20 @@
     margin-left:-1rem;
 }
 
-@media screen and(max-width:770px) {
+@media screen and (max-width:770px) {
 
     .product-sec-subcont{
         padding: 0 2%;
+    }
+
+    .product-first-subcont>h1{
+        color: white;
+        font-size: 2.5rem;
+        padding-left: 2rem;
+        padding-top: 3rem;
+    }
+    .product-first-subcont{
+        height: 8rem;
     }
     
 }
