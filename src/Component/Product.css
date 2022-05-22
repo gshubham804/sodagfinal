@@ -1,0 +1,71 @@
+.product-main-cont{
+    /* padding: 2%; */
+}
+
+.product-first-sub-cont{
+    padding: 2% 0;
+    box-shadow: rgb(81, 77, 192) 0px 5px 15px;
+}
+.product-first-sub-cont>h2{
+    text-align: center;
+}
+
+.product-second-sub-cont{
+    padding: 3% 2%;
+}
+
+.product-second-sub-cont>h2{
+    padding-left: 2.8rem;
+}
+
+
+
+.product-card{
+    margin: 5% 0;
+}
+.product-card>img{
+    border-radius: 20px;
+    width: 100%;
+    object-fit: 100%;
+    object-position: center;
+}
+
+.product-third-sub-cont{
+    padding: 3% 2%;
+}
+
+.product-third-sub-cont>h2{
+    padding-left: 2.8rem;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-color: red;
+}
+
+.product-fourth-sub-cont{
+    padding: 3% 2%;
+}
+
+.product-fourth-sub-cont>h2{
+    padding-left: 2.8rem;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-color: red;
+}
+
+.product-fifth-sub-cont{
+    padding: 3% 2%;
+}
+
+.product-fifth-sub-cont>h2{
+    padding-left: 2.8rem;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-color: red;
+}
+
+.heading-style{
+    padding-left: 2.8rem;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-color: red;
+}
