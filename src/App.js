@@ -5,11 +5,14 @@ import Contact from './Component/Contact';
 import About from './Component/About';
 import Footer from './Component/Footer';
 import Home from './Component/Home';
+import Navbar from './Component/Navbar';
+
 
 
 function App() {
   return (
     <>
+    <Navbar/>
     <Home/>
     <Product/>
     <Contact/>
