@@ -4,14 +4,16 @@ import Product from './Component/Product';
 import Contact from './Component/Contact';
 import About from './Component/About';
 import Footer from './Component/Footer';
+import Header from './Component/Header'
 
 function App() {
   return (
     <>
-    <Product/>
+    <Header/>
+    {/* <Product/>
     <Contact/>
     <About/>
-    <Footer/>
+    <Footer/> */}
     </>
   );
 }
