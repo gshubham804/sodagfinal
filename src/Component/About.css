@@ -188,6 +188,10 @@ text-align: center;
     .about-text-col{
         padding: 0 2%;
     }
+
+    .about-icon{
+        width: 60%;
+    }
 }
 
 
