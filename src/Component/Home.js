@@ -75,7 +75,7 @@ function Home() {
               <h1>FACEBOOK</h1>
             </div>
             <iframe
-              src="https://www.facebook.com/profile.php?id=100004966185216"
+              src="https://www.facebook.com/SodaGofficial"
               frameborder="5"
             >
               <h1>My Facebook Account</h1>
@@ -89,7 +89,7 @@ function Home() {
               <h1>INSTAGRAM</h1>
             </div>
             <iframe
-              src="https://www.instagram.com/_.satyam.chitransh._/"
+              src="https://www.instagram.com/soda_gofficial/?igshid=YmMyMTA2M2Y="
               frameborder="5"
             >
               My Instagram Account
