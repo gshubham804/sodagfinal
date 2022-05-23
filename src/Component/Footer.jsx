@@ -28,10 +28,10 @@ const Footer = () => {
     </ul>
     <ul class="menu">
       <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">About</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Products</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Gallery</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">About us</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Contact us</a></li>
 
     </ul>
     <p>&copy;2021 Nadine Coelho | All Rights Reserved</p>

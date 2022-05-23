@@ -22,7 +22,7 @@ const About = () => {
                 src="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/nutrition-eno/en_IN/discover-eno/discover-what/desktop/Discover_Icon_The.png?auto=format"
                 alt=""
               />
-              <p>The Eno Journey</p>
+              <p>The sodag Journey</p>
             </div>
           </div>
           <div className="about-text">
@@ -31,15 +31,15 @@ const About = () => {
                 <h2>The Beginning</h2>
                 <p>
                   Our story begins in 1850 at a little pharmacy Groat Market,
-                  Newcastle, England, where James Crossley Eno, a visionary
+                  Newcastle, England, where James Crossley sodag, a visionary
                   young man, was struck by a revolutionary idea to put an end to
                   digestive problems, and improve the lives of everyone.
                 </p>
                 <h2>The Breakthrough</h2>
                 <p>
-                  With a lot of hard work, and a little bit of luck, ENO Fruit
+                  With a lot of hard work, and a little bit of luck, sodag Fruit
                   Salts instantly improved the lives of sailors from port to
-                  port. To this day, Eno’s trusted formula of ingredients,
+                  port. To this day, sodag’s trusted formula of ingredients,
                   continues to get to work in 6 seconds, and better the lives of
                   people in India and around the world.
                 </p>
@@ -69,13 +69,13 @@ const About = () => {
             </div>
             <div className="third-second-col col-lg-8 col-md-12 col-sm-12">
               <h3>
-                "A world of woes is avoided by those who keep and use ENO's
+                "A world of woes is avoided by those who keep and use sodag's
                 Fruit Salt; therefore no family should ever be without it."
               </h3>
 
-              <p>- J.C. ENO</p>
+              <p>- J.C. sodag</p>
 
-              <p>Health Advocate, Philisopher, Writer, Inventor of ENO</p>
+              <p>Health Advocate, Philisopher, Writer, Inventor of sodag</p>
             </div>
           </div>
         </div>
@@ -83,18 +83,18 @@ const About = () => {
         <div className="about-fourth-subcont">
           <div className="about-fourth-row row">
             <div className="fourth-first-col col-lg-8 col-md-12 col-sm-12">
-              <h3>Early Advertising Of ENO</h3>
+              <h3>Early Advertising Of sodag</h3>
 
               <p>
                 As if his day job wasn’t enough to keep him busy, James kept
-                himself occupied by writing most of the ENO ads himself. He even
+                himself occupied by writing most of the sodag ads himself. He even
                 brought them to life with a splash of colour by being one of the
                 first to publish full-page colour print ads.
               </p>
 
               <p>
                 Advertised as a mild medicine for digestive dysfunctions and
-                intestinal problems, ENO started establishing its presence in
+                intestinal problems, sodag started establishing its presence in
                 newsstands from the 40s-60s.
               </p>
               <p>
@@ -112,9 +112,9 @@ const About = () => {
           </div>
         </div>
         <div className="about-fifth-subcont">
-          <h2>ENO Today</h2>
+          <h2>Sodag Today</h2>
           <p>
-            An innovative brand with credibility, ENO is now available in
+            An innovative brand with credibility, Sodag is now available in
             fantastic flavours, as well as a new screw cap bottle in India for
             ease of use.
           </p>
@@ -134,10 +134,10 @@ const About = () => {
           <p>
             Today, we are a global brand in many countries including India,
             Brazil, South Africa, Thailand, Malaysia, Venezuela, and Spain.
-            While times have changed in the past 150 years, ENO hasn’t. Hitting
+            While times have changed in the past 150 years, Sodag hasn’t. Hitting
             the acidity roadblock isn’t uncommon when we live life in the fast
-            lane. ENO Fruit Salt gets to work in 6 seconds2. Let not acidity
-            ever slow you down. Now get ready to live life non-stop with ENO.
+            lane. Sodag Fruit Salt gets to work in 6 seconds2. Let not acidity
+            ever slow you down. Now get ready to live life non-stop with Sodag.
           </p>
         </div>
 

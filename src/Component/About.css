@@ -184,4 +184,10 @@ text-align: center;
 	}
 }
 
+@media screen and (max-width:760px){
+    .about-text-col{
+        padding: 0 2%;
+    }
+}
+
 
