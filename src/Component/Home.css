@@ -155,13 +155,19 @@ body {
 }
 
 @media screen and (max-width: 760px) {
-  
+
   .network-bg-img {
     background-image: url("./Assests/9.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
     padding: 6% 0% 6% 0%;
+  }
+  .about-paragraph {
+    color: rgb(19, 19, 92);
+    padding: 3rem 6rem;
+    font-size: 1.2rem;
+    text-align: center;
   }
 
   .netwotk-text-but {
@@ -242,6 +248,7 @@ body {
     background-position: center;
     padding: 10% 0% 10% 0%;
   }
+  
 
   .netwotk-text-but {
     margin-left: 1rem;
