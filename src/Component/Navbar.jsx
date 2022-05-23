@@ -1,18 +1,19 @@
 import React, { Component } from "react";
 import "./Navbar.css";
 import {Link} from 'react-router-dom';
+import logo from './Assests/logo2.png'
 
 class Navbar extends Component {
   render() {
     return (
       <>
- 
-
       <nav className="custom-nav navbar navbar-expand-lg navbar-light bg-light">
         <button className="custom-toggle navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" />
         </button>
-        <a className="navbar-brand logo" style={{color:'white'}} href="#">Welabel</a>
+        <a className="navbar-brand logo" style={{color:'white'}} href="#">
+          <img src={logo} alt="" />
+        </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="fa fa-search"></span>
         </button>
